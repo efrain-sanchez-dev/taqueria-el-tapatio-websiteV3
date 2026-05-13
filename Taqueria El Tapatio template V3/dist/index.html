@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Restaurant Template </title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Taqueria El Tapatio | Farmersville, CA</title>
+
+  <!-- CSS File (create later) -->
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Playfair+Display:wght@700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <!-- =========================
+       HEADER
+  ========================== -->
+  <header class="header">
+    <div class="container navbar">
+      <!-- Logo -->
+      <a href="#home" class="logo">
+        <span class="logo-icon">🌮</span>
+        <span class="logo-text">Taqueria El Tapatio</span>
+      </a>
+
+      <!-- Navigation -->
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-list">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#menu" class="nav-link">Menu</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Hamburger Button -->
+      <button
+        class="hamburger"
+        id="hamburger-btn"
+        type="button"
+        aria-label="Toggle navigation menu"
+        aria-expanded="false"
+        aria-controls="nav-menu"
+      >
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO SECTION
+  ========================== -->
+  <section class="hero" id="home">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <p class="hero-subtitle">Authentic Mexican Cuisine in Farmersville</p>
+        <h1>Fresh Tacos, Burritos, and Family Traditions</h1>
+        <p>
+          Welcome to Taqueria El Tapatio, where we serve authentic Mexican food
+          made with fresh ingredients and traditional recipes. Enjoy the flavors
+          of Jalisco right here in Farmersville, California.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#menu" class="btn btn-primary">View Menu</a>
+          <a href="#contact" class="btn btn-secondary">Visit Us</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?auto=format&fit=crop&w=900&q=80"
+          alt="Plate of authentic Mexican tacos"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       ABOUT SECTION
+  ========================== -->
+  <section class="about section" id="about">
+    <div class="container about-content">
+      <div class="about-image">
+        <img
+          src="https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&w=900&q=80"
+          alt="Traditional Mexican food"
+        />
+      </div>
+
+      <div class="about-text">
+        <p class="section-subtitle">Our Story</p>
+        <h2>Family-Owned and Full of Flavor</h2>
+        <p>
+          Taqueria El Tapatio proudly serves the Farmersville community with
+          homemade recipes inspired by the rich culinary traditions of Mexico.
+          From sizzling carne asada to handcrafted salsas, every dish is
+          prepared with care and passion.
+        </p>
+        <p>
+          Whether you're grabbing a quick lunch or enjoying dinner with family,
+          our welcoming atmosphere and delicious food make every visit special.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       MENU SECTION
+  ========================== -->
+  <section class="menu section" id="menu">
+    <div class="container">
+      <p class="section-subtitle">Popular Favorites</p>
+      <h2 class="section-title">Our Menu</h2>
+
+      <div class="menu-grid">
+        <article class="menu-item">
+          <h3>Tacos</h3>
+          <p>
+            Choice of carne asada, al pastor, carnitas, pollo, or lengua.
+          </p>
+          <span class="price">$2.99 each</span>
+        </article>
+
+        <article class="menu-item">
+          <h3>Super Burrito</h3>
+          <p>
+            Stuffed with rice, beans, cheese, sour cream, guacamole, and your
+            choice of meat.
+          </p>
+          <span class="price">$11.99</span>
+        </article>
+
+        <article class="menu-item">
+          <h3>Quesadilla</h3>
+          <p>
+            Large flour tortilla with melted cheese and your choice of meat.
+          </p>
+          <span class="price">$10.49</span>
+        </article>
+
+        <article class="menu-item">
+          <h3>Carne Asada Plate</h3>
+          <p>
+            Grilled steak served with rice, beans, salad, and tortillas.
+          </p>
+          <span class="price">$15.99</span>
+        </article>
+
+        <article class="menu-item">
+          <h3>Enchiladas</h3>
+          <p>
+            Rolled tortillas topped with red or green sauce and melted cheese.
+          </p>
+          <span class="price">$13.49</span>
+        </article>
+
+        <article class="menu-item">
+          <h3>Horchata</h3>
+          <p>Refreshing cinnamon rice drink made in-house.</p>
+          <span class="price">$3.49</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       GALLERY SECTION
+  ========================== -->
+  <section class="gallery section" id="gallery">
+    <div class="container">
+      <p class="section-subtitle">Fresh & Delicious</p>
+      <h2 class="section-title">Food Gallery</h2>
+
+      <div class="gallery-grid">
+        <img
+          src="https://images.unsplash.com/photo-1613514785940-daed07799d9b?auto=format&fit=crop&w=600&q=80"
+          alt="Mexican tacos"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80"
+          alt="Burrito plate"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80"
+          alt="Nachos"
+        />
+        <img
+          src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?auto=format&fit=crop&w=600&q=80"
+          alt="Mexican drink"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       CONTACT SECTION
+  ========================== -->
+  <section class="contact section" id="contact">
+    <div class="container contact-content">
+      <div class="contact-info">
+        <p class="section-subtitle">Visit Us</p>
+        <h2>Taqueria El Tapatio</h2>
+
+        <p>
+          Serving authentic Mexican food in the heart of Farmersville,
+          California.
+        </p>
+
+        <ul class="contact-list">
+          <li><strong>Location:</strong> Farmersville, CA</li>
+          <li><strong>Phone:</strong> (559) 555-1234</li>
+          <li><strong>Hours:</strong> Mon - Sun: 9:00 AM - 9:00 PM</li>
+        </ul>
+      </div>
+
+      <div class="contact-map">
+        <iframe
+          title="Map of Farmersville, California"
+          src="https://www.google.com/maps?q=Farmersville,California&output=embed"
+          loading="lazy"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; 2026 Taqueria El Tapatio. All Rights Reserved.</p>
+      <p>Authentic Mexican Food in Farmersville, California.</p>
+    </div>
+  </footer>
+
+  <!-- =========================
+       JAVASCRIPT
+       Hamburger Menu
+  ========================== -->
+  <script>
+    // Select elements
+    const hamburgerBtn = document.getElementById("hamburger-btn");
+    const navMenu = document.getElementById("nav-menu");
+    const navLinks = document.querySelectorAll(".nav-link");
+
+    // Toggle mobile menu
+    hamburgerBtn.addEventListener("click", () => {
+      const isOpen = navMenu.classList.toggle("active");
+      hamburgerBtn.classList.toggle("active");
+
+      // Update accessibility state
+      hamburgerBtn.setAttribute("aria-expanded", isOpen);
+    });
+
+    // Close menu when a link is clicked
+    navLinks.forEach((link) => {
+      link.addEventListener("click", () => {
+        navMenu.classList.remove("active");
+        hamburgerBtn.classList.remove("active");
+        hamburgerBtn.setAttribute("aria-expanded", "false");
+      });
+    });
+
+    // Close menu when resizing to desktop
+    window.addEventListener("resize", () => {
+      if (window.innerWidth > 768) {
+        navMenu.classList.remove("active");
+        hamburgerBtn.classList.remove("active");
+        hamburgerBtn.setAttribute("aria-expanded", "false");
+      }
+    });
+  </script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
