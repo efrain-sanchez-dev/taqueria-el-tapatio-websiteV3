@@ -17,9 +17,7 @@ Features Included: Responsive website layout, Restaurant branding and visuals, N
 
 Homepage
 <img width="986" height="803" alt="Homepage Screenshot" src="https://github.com/user-attachments/assets/9f854d5c-9e4c-4044-9d93-a8822330d497" />
-
 Website Content Section
 <img width="981" height="747" alt="Content Screenshot" src="https://github.com/user-attachments/assets/851bd332-74bf-4584-bfab-84a420d3dba9" />
-
 Additional Website Section
 <img width="965" height="694" alt="Additional Screenshot" src="https://github.com/user-attachments/assets/5cde9664-95d1-45d4-8031-04e0e53dc761" />
